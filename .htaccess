@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Nếu file hoặc thư mục tồn tại thì không rewrite
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite tất cả các yêu cầu còn lại về index.php với tham số url
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
