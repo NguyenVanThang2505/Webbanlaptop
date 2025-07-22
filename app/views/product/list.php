@@ -367,7 +367,7 @@
         </div>
         <div class="col-md">
             <a href="/webbanhang/Product/show/66" class="promo-item">
-                MSI G6 KF<br><small class="fw-normal text-muted">Chỉ có tại CPS</small>
+                MSI G6 KF<br><small class="fw-normal text-muted">Chỉ có tại ThangTech+</small>
             </a>
         </div>
         <div class="col-md">
@@ -382,7 +382,7 @@
         ['name' => 'Dell', 'logo' => 'https://upload.wikimedia.org/wikipedia/commons/4/48/Dell_Logo.svg'],
         ['name' => 'HP', 'logo' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/150px-HP_logo_2012.svg.png'],
         ['name' => 'Asus', 'logo' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/ASUS_Logo.svg/750px-ASUS_Logo.svg.png'],
-        ['name' => 'Acer', 'logo' => 'https://images.acer.com/is/content/acer/acer-4'],
+        ['name' => 'Acer', 'logo' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Acer_Logo.svg/810px-Acer_Logo.svg.png'],
         ['name' => 'Lenovo', 'logo' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Lenovo_logo_2015.svg/750px-Lenovo_logo_2015.svg.png'],
         ['name' => 'Apple', 'logo' => 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg'],
         ['name' => 'MSI', 'logo' => 'https://upload.wikimedia.org/wikipedia/vi/6/6c/Msi_logo.png?20201107090254'],

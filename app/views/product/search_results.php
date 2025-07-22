@@ -169,9 +169,9 @@
             </div>
     </div>
     <div class="search-results">
-        <h3 class="mb-4">Kết quả tìm kiếm cho:
+        <!-- <h3 class="mb-4">Kết quả tìm kiếm cho:
             <strong class="text-primary"><?php echo htmlspecialchars($_GET['keyword'] ?? ''); ?></strong>
-        </h3>
+        </h3> -->
 
         <?php if (!empty($results)) : ?>
             <div class="row">
@@ -205,8 +205,14 @@
             </div>
         <?php else : ?>
             <div class="alert alert-warning text-center" role="alert">
-                <i class="bi bi-exclamation-triangle-fill me-2"></i> Không tìm thấy sản phẩm phù hợp.
+            <i class="bi bi-exclamation-triangle-fill me-2"></i> Mình không tìm thấy thứ bạn cần.
+            <br>
+            <img src="https://i.pinimg.com/originals/d1/22/cb/d122cbf31e6601bf19f0673b2b751b5f.gif" 
+                alt="Tonton thắc mắc" class="mx-auto d-block"
+                style="width:200px; margin-top:10px;">
             </div>
+
+
         <?php endif; ?>
     </div>
 </div>
