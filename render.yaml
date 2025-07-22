@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: webbanlaptop
-    env: php
-    region: singapore
-    plan: free
-    branch: main
-    buildCommand: ""
-    startCommand: ""
