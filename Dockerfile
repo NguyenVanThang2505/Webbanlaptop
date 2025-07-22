@@ -1,7 +1,12 @@
 FROM php:8.1-apache
 
-# Copy toàn bộ mã nguồn vào thư mục web
+# Bật mod_rewrite cho Apache
+RUN a2enmod rewrite
+
+# Copy code vào thư mục Apache
 COPY . /var/www/html/
 
-# Mở cổng 80 (cổng web mặc định)
+# Bật AllowOverride cho .htaccess hoạt động
+RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
+
 EXPOSE 80
